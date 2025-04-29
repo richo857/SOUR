@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: rgb(224, 172, 74);
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    padding: 10px;
+    padding-top: 85px;
+    font-size: 40px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+section.home{
+    background : url("sourdough.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1000px;
+    padding-top: 400px;
+}
+section.about{
+    height: 200px;
+}
+section.product{
+    background : url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+section.contact{
+    height: 600px;
+}
+footer{
+    height: 60px;
+}
+.rumah{
+    text-align: center;
+    color: rgb(85, 56, 3);
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.umah{
+    font-size: medium;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    width: 101%;
+    padding: 20px;
+    font-size: 40px;
+    font-family: fantasy;
+}
+section.home .welcome{
+    font-size: 100px;
+}
+.pesan a{
+
+    position: relative;
+    position: absolute; 
+    right: 10px; 
+    color: rgb(0, 0, 0); 
+    border: none; 
+    cursor: pointer; 
+}
