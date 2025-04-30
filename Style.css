@@ -1,9 +1,18 @@
-body{
-    margin: 0px;
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    
+}
+nav a:hover{    
+    padding-top: 10px;
+    background-color: rgb(175, 132, 38);
+    border-radius: 15px;
 }
 header{
     display: flex;
-    top: 0;
+    top: -10px;
     width: 100%;
     background-color: rgb(224, 172, 74);
     justify-content: space-between;
@@ -11,7 +20,7 @@ header{
     z-index: 1;
     color: white;
     padding: 10px;
-    padding-top: 85px;
+    padding-top: 20px;
     font-size: 40px;
 }
 nav a{
@@ -19,13 +28,9 @@ nav a{
     text-decoration: none;
     color: white;
     font-style: bold;
-    color: rgb(255, 255, 255);
-    padding: 10px 20px;
-    text-decoration: none;
-    box-shadow: 0px 0px 3px;
-    border-radius: 20px;
-    width: 200px;
-    height: 100px;
+    margin-right: 50px;
+    font-size: 25px;
+    text-align: center;
 }
 
 section.home{
@@ -38,13 +43,14 @@ section.home{
 }
 section.about{
     height: 200px;
+    background-color: antiquewhite;
+    
 }
-section.product{
-    background : url();
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 600px;
+section.about.h2{
+    text-align: justify;
+}
+section.about.h3{
+    text-align: justify;
 }
 section.contact{
     height: 600px;
@@ -54,32 +60,149 @@ footer{
 }
 .rumah{
     text-align: center;
-    color: rgb(85, 56, 3);
+    color: rgb(240, 239, 238);
     margin: auto;
     width: 100%;
-    padding: 20px;
-    font-size: 70px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 5px;
+    font-size: 60px;
+    margin-top: 10px;
+    font-family: cursive;
 }
+
 .umah{
     font-size: medium;
     text-align: center;
     color: rgb(255, 255, 255);
     margin: auto;
     width: 101%;
-    padding: 20px;
+    padding-top: 5px;
     font-size: 40px;
     font-family: fantasy;
+    margin-top: -500px;
 }
-section.home .welcome{
-    font-size: 100px;
+section.about, section.contact {
+    padding: 50px 20px; 
 }
-.pesan a{
+section.contact{
+    background-color: bisque;
+    text-align: center;
+    
+}
+section.product {
+    padding: 200px; 
+    text-align: center;
+    background-image: url(https://masema.id/wp-content/uploads/2024/06/toko-roti-terkenal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
 
-    position: relative;
-    position: absolute; 
-    right: 10px; 
-    color: rgb(0, 0, 0); 
-    border: none; 
-    cursor: pointer; 
+.product-card {
+    background-color: white; 
+    border: 1px solid #6b5b5b; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgb(175, 159, 15); 
+    margin: 10px; 
+    padding: 20px; 
+    width: 300px; 
+    text-align: center; 
+    transition: transform 0.5s; 
 }
+.product-card:hover{
+    background-color: blanchedalmond;
+    transform: transform 1s;
+}
+
+.product-card img {
+    width: 50%; 
+    height: 100px; 
+    border-radius: 10px; 
+}
+
+.product-card h3 {
+    font-size: 24px; 
+    margin: 10px 0; 
+}
+
+.product-card p {
+    font-size: 18px; 
+}
+
+.product-card button {
+    background-color: rgb(224, 172, 74); 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.product-card button:hover {
+    background-color: rgb(255, 200, 100); 
+}
+
+.product-card:hover {
+    transform: scale(1.05); 
+}
+
+footer {
+    height: 60px;
+    background-color: rgb(85, 56, 3); 
+    color: white;
+    text-align: center;
+    line-height: 60px; 
+}
+
+.pesan {
+    position: fixed; 
+    bottom: 20px;
+    right: 20px; 
+    font-size: large;
+}
+
+.pesan a {
+    background-color: rgb(224, 172, 74);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s; 
+}
+.pesan a:hover{
+    color: bisque;
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+}
+
+.logo img {
+    max-height: 50px; 
+    margin-right: 10px; 
+}
+
+.brand {
+    font-size: 24px; 
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    margin-left: auto; 
+}
+
+nav a {
+    padding: 10px 15px; 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
