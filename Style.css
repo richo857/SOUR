@@ -28,6 +28,8 @@ section.about {
     text-align: center;
     background-color: antiquewhite;
     padding: 50px 20px;
+    height:800px;
+    color: rgb(224, 172, 74);
 }
 
 section.about h2 {
