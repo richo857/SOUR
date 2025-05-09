@@ -76,7 +76,7 @@ section.product {
 }
 .product-container {
     display: flex;
-    flex-wrap: justify;
+    flex-wrap: wrap;
     justify-content: space-around; 
 }
 
