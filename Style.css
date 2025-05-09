@@ -24,17 +24,23 @@ section.home{
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 500px;
-    padding-top: 1000px;
+    padding-top: 2000px;
 }
 section.about {
-    background-color: antiquewhite;
     text-align: center;
+    background-color: antiquewhite;
     padding: 50px 20px;
 }
-section.about h2,
-section.about h3 {
-    text-align: center;
+
+section.about h2 {
+    font-size: 36px;
     margin-bottom: 20px;
+}
+
+section.about p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
 section.contact{
