@@ -29,6 +29,8 @@ section.home{
 section.about{
     height: 200px;
     background-color: antiquewhite;
+    margin:auto;
+    width:auto;
     
 }
 section.contact{
@@ -77,7 +79,9 @@ section.product {
 .product-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
+    justify-content: center; 
+    padding-top: 50px;
+    
 }
 
 .product-card {
