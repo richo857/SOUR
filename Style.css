@@ -30,7 +30,7 @@ section.about {
     background-color: antiquewhite;
     padding: 50px 20px;
     height:800px;
-    color:black;
+    color:#000000;
 }
 section.about h2 {
     font-size: 36px;
