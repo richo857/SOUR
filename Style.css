@@ -22,7 +22,7 @@ section.home{
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 800px;
-    padding-top: 1000px;
+    padding-top: 800px;
 }
 section.about {
     margin:auto;
@@ -30,6 +30,7 @@ section.about {
     background-color: antiquewhite;
     padding: 50px 20px;
     height:800px;
+    color:black;
 }
 section.about h2 {
     font-size: 36px;
