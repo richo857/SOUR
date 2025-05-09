@@ -31,7 +31,10 @@ section.about{
     background-color: antiquewhite;
     margin:auto;
     width:auto;
-    
+    text-align:center;
+}
+section.about.h3{
+    text-align:center;
 }
 section.contact{
     height: 600px;
