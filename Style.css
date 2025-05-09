@@ -75,7 +75,7 @@ section.product {
     background-size: cover;
 }
 .product-container {
-    display: flex;
+    display: justify;
     flex-wrap: wrap;
     justify-content: space-around; 
 }
