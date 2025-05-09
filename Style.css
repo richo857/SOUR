@@ -31,12 +31,6 @@ section.about{
     background-color: antiquewhite;
     
 }
-section.about.h2{
-    text-align: justify;
-}
-section.about.h3{
-    text-align: justify;
-}
 section.contact{
     height: 600px;
 }
