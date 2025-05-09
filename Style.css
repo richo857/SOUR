@@ -21,7 +21,7 @@ section.home{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 500px;
+    height: 800px;
     padding-top: 1000px;
 }
 section.about {
@@ -30,9 +30,7 @@ section.about {
     background-color: antiquewhite;
     padding: 50px 20px;
     height:800px;
-    color: rgb(224, 172, 74);
 }
-
 section.about h2 {
     font-size: 36px;
     margin-bottom: 20px;
